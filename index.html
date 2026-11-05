@@ -4610,7 +4610,7 @@ var qrcode = function() {
   window.__welcome={openWifi:openWifi, openHost:openHost};
   var R=window.__room; if(!R) return;
   var cam=R.camera, ctl=R.controls;
-  var ZOOM=1.6, LIFT=0.98, DROP=56;
+  var ZOOM=1.3, LIFT=0.98, DROP=56;
   var T=R.TARGET.clone(); T.y=Math.min(1.6,T.y+LIFT);
   function radius(){
     var a=Math.max(0.2,window.innerWidth/window.innerHeight);
